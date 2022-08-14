@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Carousel from "./components/Carousel";
+import OK from "./components/OK";
+import SwiperCarousel from "./components/SwiperCarousel";
+import AppointmentPage from "./pages/appointmentPage";
+import Footer from "./pages/footer";
+import Solutions from "./pages/hassel-free-solution";
+import HomePage from "./pages/home-page";
+import NavigationBar from "./components/Navbar/navigation-bar";
+import AboutUs from "./pages/aboutus";
+import Services from "./pages/services";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <NavigationBar />
+        <Routes>
+          {/* <Route path="/" element={}></Route> */}
+          <Route path="/appointment" element={<AppointmentPage />}></Route>
+        </Routes>
+      </Router>
+      <HomePage />
+      <AboutUs />
+      <Solutions />
+      <Services />
+      <SwiperCarousel/>
+
+      <Footer/>
+      {/* <OK/> */}
     </div>
   );
 }
