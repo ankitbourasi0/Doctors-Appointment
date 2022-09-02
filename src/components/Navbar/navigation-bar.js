@@ -1,5 +1,6 @@
 import React from "react";
 import { Images } from "../../assets/index";
+import BookingModal from "../BookingModal";
 import {
   Nav,
   NavLink,
@@ -33,9 +34,10 @@ const NavigationBar = () => {
               Sign Up
             </NavLink>
         </NavMenu>
-        <NavBtn>
+        <BookingModal/>
+        {/* <NavBtn>
           <NavBtnLink to="/appointment">Appointment</NavBtnLink>
-        </NavBtn>
+        </NavBtn> */}
       </Nav>
     </>
   );

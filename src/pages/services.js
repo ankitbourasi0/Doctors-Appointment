@@ -8,7 +8,7 @@ import { CAROUSEL } from "../assets/index";
 import "./styles.css";
 const Services = () => {
   return (
-    <div className="min-h-screen flex justify-between flex-col   md:flex-row bg-white">
+    <div className="min-h-screen flex justify-between flex-col  md:px-8 md:flex-row bg-white">
       <div className="md:w-1/2  flex justify-center items-center  rounded-lg  ">
         <div className="md:py-8 md:px-16 px-8 py-12">
           <h1 className="md:text-5xl text-4xl font-semibold ">Services</h1>
@@ -36,7 +36,7 @@ const Services = () => {
         </div>
       </div>
       <div
-        id="services"
+        // id="services"
         className="md:w-1/2
        flex justify-center items-center"
       >
