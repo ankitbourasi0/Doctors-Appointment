@@ -37,7 +37,7 @@ export default function BookingModal() {
 
   return (
     <div>
-      <button onClick={handleOpen} className=' mt-2 bg-blue-600 text-white rounded-lg md:px-6 md:py-4 px-4 py-2 w-full text-xl md:font-medium'   >Appointment</button>
+      <button onClick={handleOpen} className=' mt-2 bg-blue-600 text-white rounded-lg md:px-6 md:py-3 px-4 py-2 w-full text-md md:font-semibold hover:bg-blue-700 '   >Appointment</button>
 
       <Modal
         open={open}

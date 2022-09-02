@@ -17,11 +17,12 @@ function App() {
         <NavigationBar />
         <Routes>
           {/* <Route path="/" element={}></Route> */}
-          <Route path="/appointment" element={<AppointmentPage />}></Route>
+          {/* <Route path="/appointment" element={<AppointmentPage />}></Route> */}
         </Routes>
       </Router>
-      <HomePage />
       <AboutUs />
+      {/* <HomePage /> */}
+
       <Solutions />
       <Services />
       <SwiperCarousel/>
