@@ -12,12 +12,12 @@ const Services = () => {
       <div className="md:w-1/2  flex justify-center items-center  rounded-lg  ">
         <div className="md:py-8 md:px-16 px-8 py-12">
           <h1 className="md:text-5xl text-4xl font-semibold ">Services</h1>
-          <p className="text-gray-500 tracking-widest font-semibold ">
-            Jhawar ENT care center is dedicated center to Ear, nose and throat
+          <p>
+            Jhawar ENT care center is dedicated center for Ear, nose and throat
             disease and equipped with all latest instruments, audiometry and
-            allergy testing facility
+            allergy testing facility.
             <br />
-            <ul className="font-semibold list-disc p-5  ">
+            <ul className="list-disc p-5">
               <li>Deafness treatment</li>
               <li>Endoscopic sinus surgery</li>
               <li>Eardrum bone surgery (Stapedectomy) </li>
@@ -29,18 +29,15 @@ const Services = () => {
               <li> Tonsil and adenoid surgery </li>
               <li> Vocal cord microsurgery(Microlaryngoscopy)</li>
             </ul>
-            If you’re planning to visit Dr. Kavish Jhawar in the near future,
-            it’s advisable to book an appointment in advance to avoid waiting
-            time.
+            If you’re planning to visit Jhawar Ennt Clinic Center in the near future, it is advisable to book an appointment in advance to avoid waiting time.
           </p>
         </div>
       </div>
       <div
-        // id="services"
         className="md:w-1/2
        flex justify-center items-center"
       >
-        <div className="max-w-3xl  md:p-8 p-4 mx-auto  w-full flex justify-center items-center  ">
+        <div className="max-w-3xl  md:p-8 p-4 mx-auto  w-full flex justify-center items-center z-0 ">
           <Swiper
             cssMode={true}
             navigation={true}
